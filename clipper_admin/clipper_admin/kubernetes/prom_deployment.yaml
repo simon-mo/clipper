@@ -13,6 +13,7 @@ spec:
         ai.clipper.container.label: ""
         ai.clipper.name: metrics
     spec:
+      serviceAccountName: prometheus
       containers:
       - image: prom/prometheus #The version will be appended in kubernetes_metric_utils
         args: 
