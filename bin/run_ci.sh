@@ -7,6 +7,10 @@ set -o pipefail
 # Printout for timeout debug
 date
 
+cat /home/jenkins/bin/session_lock_resource.py
+exit 0
+
+
 unset CDPATH
 # one-liner from http://stackoverflow.com/a/246128
 # Determines absolute path of the directory containing
